@@ -1,0 +1,11 @@
+# Игнорируем виртуальное окружение
+.venv/
+venv/
+env/
+# Игнорируем кэш Python и Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Игнорируем системные файлы
+.DS_Store
+Thumbs.db
