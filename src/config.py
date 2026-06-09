@@ -7,7 +7,7 @@ ID_COL = 'unique_id'
 
 
 FREQ = 'MS'                # Группируем по месяцам
-HORIZON = 24               # Прогноз на 2 года вперед
+HORIZON = 64             # Прогноз на 2 года вперед
 RANDOM_SEED = 42
 
 

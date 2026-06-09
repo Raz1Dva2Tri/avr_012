@@ -1,4 +1,4 @@
-unique_id,ds,NHITS
+unique_id,ds,y_pred
 Rocket_Launch,2020-09-01,7.4216795
 Rocket_Launch,2020-10-01,5.979961
 Rocket_Launch,2020-11-01,8.010692

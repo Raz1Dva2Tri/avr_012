@@ -17,10 +17,12 @@ def main():
     df = load_and_prepare_data(input_file)
     
     pipeline = RocketLaunchPipeline()
-    results_df = pipeline.fit_predict(df)
+
+    results_df = pipeline.fit_predict_nhits(df)
     
     # 3. Сохранение результата
     results_df.to_csv(output_file, index=False)
+
     print(f"✅ Готово! Прогноз успешно сохранен в {output_file}")
     
     # Вывод первых строк для проверки
